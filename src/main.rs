@@ -1,12 +1,15 @@
 use inflector::Inflector;
-fn main() {
+use std::io::{self, Read};
+
+fn main() -> io::Result<()> {
     let args: Vec<_> = std::env::args().collect();
-    if args.len() != 3 {
-        eprintln!("Error: needs 2 arguments");
+    if args.len() != 2 {
+        eprintln!("Error: needs 1 argument");
         std::process::exit(1);
     }
     let inflector_type = &args[1];
-    let input = &args[2];
+    let mut input = String::new();
+    io::stdin().read_to_string(&mut input)?;
     let output = match inflector_type.as_str() {
         "camel" => input.to_camel_case(),
         "kebab" => input.to_kebab_case(),
@@ -20,5 +23,6 @@ fn main() {
             std::process::exit(1);
         }
     };
-    println!("{}", output)
+    println!("{}", output);
+    Ok(())
 }
