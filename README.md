@@ -17,3 +17,13 @@ title               Foo Bar
 train               Foo-Bar
 ugly                Foo_Bar
 ```
+
+## Installation
+
+```
+$ cargo install kak-subvert
+```
+
+This should add a `kak-subvert` command to your $PATH.
+
+Then you should add something like [subvert.kak](./subvert.kak) in your Kakoune configuration.
