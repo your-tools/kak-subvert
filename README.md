@@ -14,7 +14,7 @@ kebab               foo-bar
 pascal              FooBar
 sentence            Foo bar
 snake               foo_bar
-screaming           Foo bar
+screaming           FOO_BAR
 title               Foo Bar
 train               Foo-Bar
 ugly                Foo_Bar
