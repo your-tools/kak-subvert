@@ -1,6 +1,6 @@
 # kak-subvert
 
-Allow converting selection to various casing.
+Allow converting selection to various casings.
 
 For instance, `foo_bar` to `FooBar`
 
