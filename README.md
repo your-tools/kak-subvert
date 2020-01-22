@@ -1,3 +1,5 @@
+[![crates.io image](https://img.shields.io/crates/v/kak-subvert.svg)](https://crates.io/crates/kak-subvert)
+
 # kak-subvert
 
 Allow converting selection to various casings.
