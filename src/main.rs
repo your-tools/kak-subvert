@@ -17,6 +17,8 @@ fn main() -> io::Result<()> {
         "sentence" => input.to_sentence_case(),
         "snake" => input.to_snake_case(),
         "screaming" => input.to_screaming_snake_case(),
+        "title" => input.to_title_case(),
+        "train" => input.to_train_case(),
         "ugly" => input.to_train_case().replace("-", "_"),
         _ => {
             eprintln!("Unknown type: {}", inflector_type);
