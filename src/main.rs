@@ -12,6 +12,7 @@ fn main() -> io::Result<()> {
     io::stdin().read_to_string(&mut input)?;
     let output = match inflector_type.as_str() {
         "camel" => input.to_camel_case(),
+        "http" => input.to_title_case().replace(" ", "-"),
         "kebab" => input.to_kebab_case(),
         "pascal" => input.to_pascal_case(),
         "sentence" => input.to_sentence_case(),

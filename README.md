@@ -10,6 +10,7 @@ Known casings:
 
 ```
 camel               fooBar
+http                Foo-Bar
 kebab               foo-bar
 pascal              FooBar
 sentence            Foo bar
