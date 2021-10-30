@@ -2,7 +2,7 @@
 name = "kak-subvert"
 version = "1.0.1"
 authors = ["Dimitri Merejkowsky <dimitri.merejkowsky@tanker.io>"]
-edition = "2018"
+edition = "2021"
 description = "Casing conversions for Kakoune"
 license = "BSD-3-Clause"
 readme = "README.md"
