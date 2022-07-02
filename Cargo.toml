@@ -1,6 +1,6 @@
 [package]
 name = "kak-subvert"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Dimitri Merejkowsky <dimitri.merejkowsky@tanker.io>"]
 edition = "2021"
 description = "Casing conversions for Kakoune"

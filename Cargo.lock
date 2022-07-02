@@ -23,7 +23,7 @@ dependencies = [
 
 [[package]]
 name = "kak-subvert"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "Inflector",
 ]
