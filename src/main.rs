@@ -11,6 +11,7 @@ fn main() -> io::Result<()> {
     let mut input = String::new();
     io::stdin().read_to_string(&mut input)?;
     let output = match inflector_type.as_str() {
+        "ada" | "ugly" => input.to_train_case().replace('-', "_"),
         "camel" => input.to_camel_case(),
         "http" => input.to_title_case().replace(' ', "-"),
         "kebab" => input.to_kebab_case(),
@@ -20,7 +21,6 @@ fn main() -> io::Result<()> {
         "screaming" => input.to_screaming_snake_case(),
         "title" => input.to_title_case(),
         "train" => input.to_train_case(),
-        "ugly" => input.to_train_case().replace('-', "_"),
         _ => {
             eprintln!("Unknown type: {}", inflector_type);
             std::process::exit(1);
