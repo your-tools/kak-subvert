@@ -1,3 +1,7 @@
+# 1.0.3 (2023-04-27)
+
+* Fix for kakoune >= 2022.10.31 - patch by @TeddyDD
+
 # 1.0.2 (2022-07-02)
 
 * Bump to Rust 2021 edition
