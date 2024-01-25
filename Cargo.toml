@@ -15,4 +15,4 @@ name = "caser"
 path = "src/main.rs"
 
 [dependencies]
-Inflector = "0.11.4"
+cruet = "0.14.0"
