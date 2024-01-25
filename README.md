@@ -1,6 +1,6 @@
-[![crates.io image](https://img.shields.io/crates/v/kak-subvert.svg)](https://crates.io/crates/kak-subvert)
+[![crates.io image](https://img.shields.io/crates/v/caser-cli.svg)](https://crates.io/crates/caser-cli)
 
-# kak-subvert
+# caser
 
 Allow converting selection to various casings.
 
@@ -24,9 +24,9 @@ ugly                Foo_Bar
 ## Installation
 
 ```
-$ cargo install kak-subvert
+$ cargo install caser-cli
 ```
 
-This should add a `kak-subvert` command to your $PATH.
+This should add a `caser` command to your $PATH.
 
-Then you should add something like [subvert.kak](./subvert.kak) in your Kakoune configuration.
+Then you should add something like [caser.kak](./caser.kak) in your Kakoune configuration.
