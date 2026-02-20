@@ -2,6 +2,8 @@
 
 # kak-subvert
 
+**This repository has moved to [codeberg](https://codeberg.org/your-tools/) - see you there !**
+
 Allow converting selection to various casings.
 
 For instance, `foo_bar` to `FooBar`
