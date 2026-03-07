@@ -1,14 +1,18 @@
 [package]
-name = "kak-subvert"
+name = "caser-cli"
 version = "1.0.3"
 authors = ["Dimitri Merejkowsky <dimitri.merejkowsky@tanker.io>"]
 edition = "2021"
 description = "Casing conversions for Kakoune"
 license = "BSD-3-Clause"
 readme = "README.md"
-repository = "https://github.com/dmerejkowsky/kak-subvert"
-keywords = ["kakoune", "subvert", "inflect"]
+repository = "https://github.com/dmerejkowsky/caser-cli"
+keywords = ["kakoune", "caser", "inflect"]
 categories = ["command-line-utilities"]
+
+[[bin]]
+name = "caser"
+path = "src/main.rs"
 
 [dependencies]
 Inflector = "0.11.4"

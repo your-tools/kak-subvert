@@ -1,0 +1,11 @@
+declare-user-mode caser
+map global user y ':enter-user-mode caser<ret>' -docstring 'enter caser user mode'
+map global caser a '<esc>| caser ada <ret>' -docstring 'Ada_Case'
+map global caser c '<esc>| caser camel <ret>' -docstring 'camelCase'
+map global caser k '<esc>| caser kebab <ret>' -docstring 'kebab-case'
+map global caser p '<esc>| caser pascal <ret>' -docstring 'PascalCase'
+map global caser . '<esc>| caser sentence <ret>' -docstring 'Sentence case'
+map global caser s '<esc>| caser snake <ret>' -docstring 'snake_case'
+map global caser S '<esc>| caser screaming <ret>' -docstring 'SCREAMING_CASE'
+map global caser t '<esc>| caser train <ret>' -docstring 'Train-Case'
+map global caser T '<esc>| caser title <ret>' -docstring 'Title Case'
