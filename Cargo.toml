@@ -11,4 +11,4 @@ keywords = ["kakoune", "subvert", "inflect"]
 categories = ["command-line-utilities"]
 
 [dependencies]
-Inflector = "0.11.4"
+cruet = "0.14.0"

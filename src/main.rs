@@ -1,4 +1,4 @@
-use inflector::Inflector;
+use cruet::Inflector;
 use std::io::{self, Read};
 
 fn main() -> io::Result<()> {
